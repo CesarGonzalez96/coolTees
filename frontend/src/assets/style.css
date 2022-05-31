@@ -1,0 +1,269 @@
+/******************
+    common
+         **********************/
+
+         html,body{
+            margin: 0;
+            width: 100% auto;
+            height: 100% auto;
+        }
+        .text {
+            position:absolute;
+        
+        }
+        
+        /***********Home page ***************/
+        
+        
+            /**********Body***************/
+        .logo {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+        .banner {
+            position:relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .icon-image img {
+            height: 25px;
+        }
+        .add-button {
+            background-color: #59AF0F;
+            
+            width: 25%;
+            padding: 10px;
+            bottom: 15%;
+            font-size: 13px;
+            border-radius: 9px;
+            right: 50%;
+            position: absolute;
+            color: white;
+            border: none;
+        }
+        .shop-row {
+            width: 25%;
+        }
+        #search-icon {
+            position:absolute;
+            top: 2%;
+            right: 25%;
+            
+        }
+        #shopping-icon {
+            position:absolute;
+            top: 2%;
+            right: 28%;
+        }
+        #user-icon {
+            position:absolute;
+            top: 2%;
+            right: 31%;
+        }
+        .text{
+            position: absolute;
+            top: 15%;
+            left: 12%;
+        }
+        .text h1{
+            font-size: 90px;
+            margin-bottom: 0%;
+        }
+        .text hr{
+                border: solid 3px black;
+        }
+        .text {
+            position: absolute;
+            top: 45%;
+            left: 25%;
+        }
+        section.shop_content {
+            padding: 10%;
+        }
+        .shirt img {
+            width: 200px;
+            height: 220px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: whitesmoke;
+            padding: 0px;
+          }
+          .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 50px;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+          }
+        img.footer{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%; 
+        }
+        
+        h3.adds {
+            text-align: center;
+        }
+        h2.contact {
+            text-align: center;
+        }
+        h5.copyright {
+            text-align: center;
+        }
+        .signup {
+            position: absolute;
+            top: 15%;
+            left: 40%;
+            z-index: 2;
+            background: whitesmoke;
+            padding: 25px;
+            width: 20%;
+        }
+        /**************** login box setup **************/
+        
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 25px;
+          }
+        
+          .signup button {
+            background-color: #461DE6;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 25px;
+          }
+        
+        /**************** cart *****************/
+        .product-header {
+            display: grid;
+            grid-template-columns: 30% 15% 15% 30%;
+            padding: 10px;
+          }
+         
+          h5.header-info {
+              font-weight: 100;
+          }
+          .product-info {
+            display: grid;
+            grid-template-columns: 15% 15% 15% 15% 15% auto;
+            padding: 10px;
+          }
+          img.cartshirt {
+             width:30%;
+          }
+          button.cartbutton {
+              border: none;
+              background: none;
+          }
+          section.shoppingCart {
+              padding-top: 100px;
+          }
+          .checkout {
+            display: grid;
+            grid-template-columns: 30% 10% 20% 5%;
+            padding: 10px;
+            justify-items: end;
+          }
+        
+          button.next-button {
+            background-color: #461DE6;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 10px;
+          }
+          button.continue-button {
+                background-color: white;
+                color: black;
+                border: 2px solid black;;
+                border-radius: 25px;
+                padding: 10px 10px;
+          }
+        
+          /************** order *****************/
+        
+          h1.banner-text {
+              background-color: #461DE6;
+              text-align: center;
+              color: white;
+              padding: 75px;
+              font-size: 75px;
+          }
+          .cart-item {
+            display: grid;
+            grid-template-columns: 20% 5% 5%;
+            padding: 10px;
+          }
+          h3.order-header {
+              font-weight: 100;
+          }
+          p3.order-text {
+              font-weight: 700;
+          }
+          .order-static {
+              padding-bottom: 50px;
+          }
+          hr{
+              margin: auto;
+          }
+          .cart-price {
+            border: 1px solid black;
+            border-radius: 25px;
+            text-align: center;
+          }
+          .total-cart {
+              display: grid;
+              grid-template-columns: 20% 5% 5%;
+              padding: 10px;
+              font-size: 25px;
+              font-weight: 700;
+          }
+        .total-price {
+            border: 1px solid black;
+            border-radius: 25px;
+            text-align: center;
+        }
+        
+        .order-button {
+            background-color: #461DE6;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 25px;
+        }
+        
+        .purchase {
+            width: 30%;
+        }
+        
+        button.order-button {
+            width: 15%;
+        }
+        
+        /************************thankyou**************/
+        
+        .thankyou-message{
+            text-align: center;
+            margin: 50px 0px;
+        }
+
+        .order-button {
+            justify-content: center;
+        }
